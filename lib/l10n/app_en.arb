@@ -1,0 +1,58 @@
+{
+  "@@locale": "en",
+
+  "hello_world": "Hello World!",
+  "@hello_world": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "login": "Login",
+  "@login": {
+    "description": ""
+  },
+
+  "account": "Account",
+  "@account": {
+    "description": ""
+  },
+
+  "logout": "Logout",
+  "@logout": {
+    "description": ""
+  },
+
+  "service": "Service",
+  "@service": {
+    "description": ""
+  },
+
+  "characteristic": "Characteristic",
+  "@characteristic": {
+    "description": ""
+  },
+
+  "descriptor": "Descriptor",
+  "@descriptor": {
+    "description": ""
+  },
+
+  "ble_scanning_page": "BLE scanning page",
+  "@descriptor": {
+    "description": ""
+  },
+
+  "line_chart_page": "Line Chart page",
+  "@descriptor": {
+    "description": ""
+  },
+
+  "connect": "Connect",
+  "@descriptor": {
+    "description": ""
+  },
+
+  "disconnect": "Disconnect",
+  "@descriptor": {
+    "description": ""
+  }
+}

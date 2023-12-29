@@ -1,0 +1,15 @@
+{
+  "@@locale": "zh_TW",
+
+  "hello_world": "你好，世界",
+  "login": "登入",
+  "logout": "登出",
+  "account": "帳號",
+  "service": "服務",
+  "characteristic": "特徵",
+  "descriptor": "描述",
+  "ble_scanning_page": "藍牙低功耗掃描頁面",
+  "line_chart_page": "折線圖頁面",
+  "connect": "連線",
+  "disconnect": "斷線"
+}
