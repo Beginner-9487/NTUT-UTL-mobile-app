@@ -35,19 +35,19 @@ class HomePageState extends State<HomePage> with TickerProviderStateMixin, State
   late ScrollController _scrollController;
   late TextEditingController _searchTextController;
 
-  Map<String, Widget> get tabs => ProjectParameters.homePageTabs;
+  Map<String, Widget> get tabs => ProjectParameters.homePageTabs(str);
 
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: tabs.length, vsync: this);
-    _scrollController = ScrollController();
-    _searchTextController = TextEditingController();
     homeBloc.add(LoadHome());
   }
 
   @override
   Widget build(BuildContext context) {
+    _tabController = TabController(length: tabs.length, vsync: this);
+    _scrollController = ScrollController();
+    _searchTextController = TextEditingController();
     return MultiBlocProvider(
       providers: [
         BlocProvider<HomeBloc>(

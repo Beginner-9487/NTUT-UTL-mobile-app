@@ -21,8 +21,8 @@ class MyUserRepository {
     return accessToken;
   }
   static void _$getAccessRefreshTokenByJson(Map<String, dynamic> json) {
-    accessToken = json['access_token'] as String;
-    accessToken = json['refresh_token'] as String;
+    // accessToken = json['access_token'] as String;
+    // accessToken = json['refresh_token'] as String;
   }
 
   static Future<bool> auto_login(BuildContext context) async {

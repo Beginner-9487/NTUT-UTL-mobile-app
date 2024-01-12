@@ -29,10 +29,16 @@ class ProjectParameters {
     const PageStorageKey<int>(1),
   ];
 
-  static Map<String, Widget> get homePageTabs => {
-    str.ble_scanning_page: ScanBluetoothExamplePage(homePageKeys[0]),
-    str.line_chart_page: SimpleLineChart(homePageKeys[1])
-  };
+  // static Map<String, Widget> get homePageTabs => {
+  //   str.ble_scanning_page: ScanBluetoothExamplePage(homePageKeys[0]),
+  //   str.line_chart_page: SimpleLineChart(homePageKeys[1])
+  // };
+  static Map<String, Widget> homePageTabs(AppLocalizations str) {
+    return {
+      str.ble_scanning_page: ScanBluetoothExamplePage(homePageKeys[0]),
+      str.line_chart_page: SimpleLineChart(homePageKeys[1])
+    };
+  }
 
   static bool get allowAutoLoginAsGuest => true;
   static bool get allowGiveAppFeedback => true;
