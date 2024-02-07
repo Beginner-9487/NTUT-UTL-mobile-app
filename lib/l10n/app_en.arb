@@ -1,6 +1,11 @@
 {
   "@@locale": "en",
 
+  "appName": "UTL App",
+  "@appName": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
   "hello_world": "Hello World!",
   "@hello_world": {
     "description": "The conventional newborn programmer greeting"
@@ -11,13 +16,61 @@
     "description": ""
   },
 
-  "account": "Account",
-  "@account": {
+  "loginAsGuest": "Login as guest",
+  "@loginAsGuest": {
     "description": ""
   },
 
   "logout": "Logout",
   "@logout": {
+    "description": ""
+  },
+
+  "register": "Register",
+  "@register": {
+    "description": ""
+  },
+  "password": "Password",
+  "@password": {
+    "description": ""
+  },
+  "retypePassword": "Retype Password",
+  "@retypePassword": {
+    "description": ""
+  },
+
+  "account": "Account",
+  "@account": {
+    "description": ""
+  },
+
+  "home": "Home",
+  "@home": {
+    "description": ""
+  },
+  "help": "Help",
+  "@help": {
+    "description": ""
+  },
+  "feedBack": "FeedBack",
+  "@feedBack": {
+    "description": ""
+  },
+  "inviteFriend": "Invite Friend",
+  "@inviteFriend": {
+    "description": ""
+  },
+  "rateTheApp": "Rate the app",
+  "@rateTheApp": {
+    "description": ""
+  },
+  "aboutUs": "About Us",
+  "@aboutUs": {
+    "description": ""
+  },
+
+  "settings": "settings",
+  "@settings": {
     "description": ""
   },
 
@@ -53,6 +106,41 @@
 
   "disconnect": "Disconnect",
   "@descriptor": {
+    "description": ""
+  },
+
+  "open": "Open",
+  "@open": {
+    "description": ""
+  },
+
+  "sendCommand": "Send Command",
+  "@open": {
+    "description": ""
+  },
+
+  "cortisol": "cortisol",
+  "@cortisol": {
+    "description": ""
+  },
+
+  "lactate": "lactate",
+  "@lactate": {
+    "description": ""
+  },
+
+  "voltage": "voltage",
+  "@voltage": {
+    "description": ""
+  },
+
+  "current": "current",
+  "@current": {
+    "description": ""
+  },
+
+  "time": "time",
+  "@time": {
     "description": ""
   }
 }
